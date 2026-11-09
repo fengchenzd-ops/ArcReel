@@ -28,3 +28,7 @@ uv run python scripts/gate.py backend frontend     # 或直接点名域；各域
 - Triage 标签状态机：`docs/agents/triage-labels.md`。
 - 领域文档（`GLOSSARY.md` + `docs/adr/`）的使用方式：`docs/agents/domain.md`。
 - 项目 schema 迁移：新增或修改 `lib/project/project_migrations/` 的迁移步、改动产物补录规划器时读 `docs/agents/project-migrations.md`。
+
+## 定制分支
+
+在 `codex/personal` 或从它拉出的分支上改代码、合并上游前，读 `docs/agents/fork-customization.md`。
