@@ -43,3 +43,4 @@
 |---|---|---|
 | 定制分支开发约束 | 让 Agent 写定制代码时考虑后续合并 | `AGENTS.md` 末尾「定制分支」一节 |
 | macOS 启动脚本 | `fork/dev-mac.sh` 一条命令同步依赖、迁移数据库并同时启动前后端；端口与 `frontend/vite.config.ts` 的转发目标一致 | 无 |
+| Windows 启动脚本 | `fork/dev-windows.ps1` 流程与 macOS 版相同；后端不开热重载，工具与缓存可放在 `-ToolsRoot` 指定的目录，避免占用 C 盘；文件只用 ASCII 字符，因为 PowerShell 5.1 按 ANSI 代码页读取没有 BOM 的文件 | 无 |
